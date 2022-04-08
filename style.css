@@ -1,0 +1,93 @@
+body {
+    background: rgb(161, 161, 247);
+}
+
+section {
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 15px;
+    background: #a8e6ce;
+    width: 260px;
+    margin: 5% auto;
+}
+
+.resul {
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: 10px 0;
+    height: 150px;
+    width: 260px;
+    text-align: center;
+    background: #288d85;
+}
+
+.resultado {
+    border-radius: 15px;
+    font-size: 50px;
+    border: none;
+    height: 60px;
+    width: 250px;
+    position: relative;
+    top: 85px;
+    text-align: right;
+    background: #288d85;
+}
+
+.operadores li {
+    background: #ffd3b5;
+    display: inline-block;
+    font-size: 30px;
+    padding: 5px 7px;
+    margin: 5px 0;
+    border-radius: 30px;
+    border: 2px solid black;
+}
+
+.numeros {
+    margin: 5px 0;
+}
+
+.linha li {
+    background: #ffd3b5;
+    margin: 1px 0px;
+    display: inline-block;
+    padding: 30px 32px;
+    font-size: 30px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+li:hover, #zero:hover, #igual:hover {
+    background: #ffaaa6;
+    cursor: pointer;
+}
+
+li:active {
+    transform: scale(0.95);
+}
+
+.linha_baixo {
+    margin: 5px 0px;
+    display: block;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+#zero {
+    background: #ffd3b5;
+    display: inline-block;
+    padding: 20px 45px;
+    font-size: 25px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+#igual {
+    background: #ffd3b5;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 20px 65px;
+    font-size: 25px;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = 'stylesheet' href = 'reset.css'>
+    <link rel = 'stylesheet' href = 'style.css'>
+    <title>Tentativa de calculadora</title>
+</head>
+<body>
+    <section>
+        <div class = 'resul'>
+            <p class = 'resultado'></p>
+        </div>
+        <ul>
+        <div class = 'operadores'>
+            <li onclick = 'Tela("+")'>+</li>
+            <li onclick = 'Tela("-")'>-</li>
+            <li onclick = 'Tela("/")'>/</li>
+            <li onclick = 'Tela("*")'>x</li>
+            <li onclick = 'Tela("C")'>C</li>
+            <li onclick = 'Tela("B")'>Back</li>
+        </div>
+        <div class = 'numeros'>
+            <div class = 'linha'>
+                <li onclick = 'Tela("1")'>1</li>
+                <li onclick = 'Tela("2")'>2</li>
+                <li onclick = 'Tela("3")'>3</li>
+            </div>
+            <div class = 'linha'>
+                <li onclick = 'Tela("4")'>4</li>
+                <li onclick = 'Tela("5")'>5</li>
+                <li onclick = 'Tela("6")'>6</li>
+            </div>
+            <div class = 'linha'>
+                <li onclick = 'Tela("7")'>7</li>
+                <li onclick = 'Tela("8")'>8</li>
+                <li onclick = 'Tela("9")'>9</li>
+            </div>
+            <div class = 'linha_baixo'>
+                <li id = 'zero'onclick = 'Tela("0")'>0</li>
+                <li id = 'igual' onclick = 'Tela("=")'>=</li>
+            </div>
+        </div>
+        </ul>
+    </section>
+    <script src = 'main.js'></script>
+</body>
+</html>
